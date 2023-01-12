@@ -13,7 +13,6 @@ void add_nums(char *final_prod, char *next_prod, int next_len);
  *
  * Return: The length of the string
  */
-
 int find_len(char *str)
 {
 	int len = 0;
@@ -28,6 +27,7 @@ int find_len(char *str)
  * create_xarray - Creates an array of chars and initializes it with
  *                 the character 'x'. Adds a terminating null byte.
  * @size: The size of the array to be initialized.
+ *
  * Description: If there is insufficient space, the
  *              function exits with a status of 98.
  * Return: A pointer to the array.
