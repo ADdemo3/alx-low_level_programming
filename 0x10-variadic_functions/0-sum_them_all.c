@@ -5,14 +5,14 @@
  * sum_them_all - Returns the sum of all its paramters.
  * @n: amount of the arguments.
  *
- * Return: sum of its parameters.
+ * Return: if n == 0 - 0.
+ * otherwise - the sum of all parameters.
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int i;
+	unsigned int i, sum = 0;
 	va_list valist;
-	int sun = 0;
 
 	if (n == 0)
 		return (0);
