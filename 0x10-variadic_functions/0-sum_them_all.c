@@ -4,7 +4,7 @@
  * sum_them_all - Returns the sum of all its paramters.
  * @n: The number of arguments to be summed.
  *
- * Return: sun or 0.
+ * Return: sum or 0.
  */
 int sum_them_all(const unsigned int n, ...)
 {
